@@ -25,7 +25,10 @@ export function PageMetadata({
     const resolvedTitle = title ?? siteConfig.title;
     const resolvedDescription = description ?? siteConfig.description;
 
-    const ogImage = new URL(siteConfig.ogImage, normalizedBase).toString();
+    const ogImage = new URL(
+        siteConfig.brand.ogImage,
+        normalizedBase
+    ).toString();
 
     return {
         metadataBase: new URL(normalizedBase),
