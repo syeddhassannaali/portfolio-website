@@ -1,0 +1,108 @@
+{
+  "name": "Syed Hassan Ali | Digital Systems Architect & Automation Engineer",
+  "short_name": "SHA Systems",
+  "description": "Digital Systems Architect specializing in scalable software platforms, backend infrastructure, AI automation, cloud systems, and enterprise-grade digital solutions.",
+  "id": "/?source=pwa",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone"
+  ],
+  "background_color": "#ffffff",
+  "theme_color": "#5b5cf6",
+  "lang": "en-US",
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "categories": [
+    "business",
+    "technology",
+    "developer",
+    "consulting",
+    "productivity"
+  ],
+  "icons": [
+    {
+      "src": "/favicons/fav-light-logo-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicons/fav-light-logo-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicons/fav-light-logo-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicons/fav-light-logo-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/favicons/fav-light-apple-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Services",
+      "short_name": "Services",
+      "description": "Explore system design, software engineering, infrastructure, and automation capabilities.",
+      "url": "/services",
+      "icons": [
+        {
+          "src": "/favicons/fav-light-logo-96x96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Case Studies",
+      "short_name": "Cases",
+      "description": "Review architecture breakdowns and system design case studies.",
+      "url": "/case-studies",
+      "icons": [
+        {
+          "src": "/favicons/fav-light-logo-96x96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Engagement",
+      "short_name": "Engage",
+      "description": "View engagement models and collaboration structure.",
+      "url": "/engagement",
+      "icons": [
+        {
+          "src": "/favicons/fav-light-logo-96x96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/home-desktop.png",
+      "sizes": "1440x900",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/screenshots/home-mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #ffffff;
+    --multi-sectional-background: #f8fafc;
+    --dark-background: #000000;
+
+    --heading: #0f172a;
+    --sub-heading: #334155;
+    --foreground: #475569;
+    --dark-heading: #ffffff;
+    --dark-sub-heading: #d1d5db;
+    --dark-foreground: #9ca3af;
+
+    --card: #ffffff;
+    --card-foreground: #0f172a;
+    --popover: #ffffff;
+    --popover-foreground: #0f172a;
+
+    --primary: #5b5cf6;
+    --primary-foreground: #ffffff;
+    --primary-hover: #4f46e5;
+    --secondary: #eef2ff;
+    --secondary-foreground: #3730a3;
+    --secondary-hover: #e0e7ff;
+
+    --muted: #f8fafc;
+    --muted-foreground: #64748b;
+    --muted-hover: #f1f5f9;
+
+    --accent: #c7d2fe;
+    --accent-foreground: #3730a3;
+
+    --destructive: #dc2626;
+    --destructive-foreground: #ffffff;
+
+    --border: #e6e8ec;
+    --input: #f1f5f9;
+    --ring: #5b5cf6;
+
+    --radius: 0.625rem;
+  }
+
+  * {
+    @apply m-0 p-0 box-border scroll-smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground [text-rendering:optimizeLegibility] font-inter;
+  }
+}
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
